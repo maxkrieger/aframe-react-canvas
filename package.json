@@ -1,12 +1,16 @@
 {
   "name": "aframe-react-canvas",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "An html5 canvas context for aframe and aframe-react.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
 		"build": "babel --presets es2015,react,stage-0 src -o index.js",
 		"prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxkrieger/aframe-react-canvas.git"
   },
   "keywords": [
     "aframe",
@@ -26,5 +30,9 @@
     "babel-preset-stage-0": "^6.3.13"
   },
   "author": "Max Krieger",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maxkrieger/aframe-react-canvas/issues"
+  },
+  "homepage": "https://github.com/maxkrieger/aframe-react-canvas#readme"
 }
