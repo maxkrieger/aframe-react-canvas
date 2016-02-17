@@ -1,5 +1,7 @@
 #aframe-react-canvas
 
+NOTE: You should probably check out [draw](https://www.npmjs.com/package/aframe-draw-component), a component version of this. I don't plan to maintain this project.
+
 A wrapper for HTML5 Canvas as a flat entity within AFrame, controlled by React.
 
 ![demo](demo.png)

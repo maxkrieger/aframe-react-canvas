@@ -28,7 +28,7 @@ export default class Canvas extends React.Component {
 	}
 	makeRandomId() {
 		let next = Math.floor(Math.random()*Math.pow(10, 20));
-		while(next == this.state.id) {
+		while(next == "C" + this.state.id) {
 			next = Math.floor(Math.random()*Math.pow(10, 20));
 		}
 		return "C" + next;
